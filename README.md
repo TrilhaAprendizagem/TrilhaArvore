@@ -43,3 +43,32 @@ Uma árvore binária pode ser usada como parte de um algoritmo de aprendizado de
 
 #### Em Matemática: 
 Uma árvore binária pode ser usada em análises matemáticas, como na organização de dados para eficiência computacional, sendo operada por matemáticos ou cientistas de dados.
+
+### Conhecimento Previos
+
+
+#### Estrutura de Dados: 
+Compreender como as estruturas de dados funcionam é essencial. Uma árvore binária é uma estrutura de dados hierárquica onde cada nó tem no máximo dois filhos.
+
+#### Nós:
+Os nós são os elementos individuais da árvore. Cada nó pode ter um valor associado e referências para seus nós filhos.
+#### Raiz: 
+O nó superior da árvore é chamado de raiz. É o ponto de entrada para acessar toda a árvore.
+#### Nós Filhos: 
+Cada nó pode ter até dois nós filhos, que são os nós que estão diretamente conectados a ele.
+#### Nó Pai: 
+Um nó pai é um nó que possui outros nós conectados a ele. Cada nó, exceto a raiz, tem exatamente um nó pai.
+
+#### Nós Folha: 
+Os nós folha são os nós que não têm filhos. Eles estão localizados nas extremidades da árvore.
+Travessias (ou Percursos) em Árvores: Existem diferentes maneiras de percorrer ou visitar todos os nós de uma árvore, como pré-ordem, pós-ordem e em ordem.
+
+#### Inserção e Remoção de Nós:
+ Entender como adicionar (inserir) e remover nós de uma árvore binária é fundamental.
+#### Busca em Árvores Binárias:
+ Uma operação comum em árvores binárias é a busca por um determinado valor.
+#### Altura da Árvore e Profundidade dos Nós: 
+A altura da árvore é a maior distância entre a raiz e uma folha. A profundidade de um nó é o número de arestas no caminho da raiz até esse nó.
+
+#### Equilíbrio da Árvore:
+ Uma árvore binária é considerada equilibrada quando a diferença entre a altura da subárvore esquerda e a altura da subárvore direita de cada nó é no máximo 1.
