@@ -30,3 +30,16 @@ As árvores binárias podem ser usadas para armazenar dados ordenados de forma e
 
 #### Aplicações práticas: 
 As árvores binárias são amplamente utilizadas em algoritmos e estruturas de dados em uma variedade de campos, incluindo ciência da computação, bioinformática, processamento de texto, compiladores e muito mais.
+
+### Pra quem?
+
+Uma árvore binária pode ser utilizada em muitos contextos diferentes, desde estruturas de dados em ciência da computação até modelos de classificação em inteligência artificial. Em estruturas de dados, uma árvore binária é uma estrutura hierárquica composta por nós, onde cada nó tem no máximo dois filhos, geralmente rotulados como "esquerda" e "direita". Cada nó armazena um valor e pode ser conectado a outros nós de acordo com certas regras.
+
+#### Em Ciência da Computação:
+ A árvore binária pode ser parte de um programa de computador, onde é manipulada e acessada pelo código escrito por um programador.
+
+ #### Em Inteligência Artificial:
+Uma árvore binária pode ser usada como parte de um algoritmo de aprendizado de máquina, como uma árvore de decisão, onde é construída e percorrida por um modelo de IA.
+
+#### Em Matemática: 
+Uma árvore binária pode ser usada em análises matemáticas, como na organização de dados para eficiência computacional, sendo operada por matemáticos ou cientistas de dados.
