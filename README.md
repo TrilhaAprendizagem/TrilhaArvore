@@ -72,3 +72,36 @@ A altura da árvore é a maior distância entre a raiz e uma folha. A profundida
 
 #### Equilíbrio da Árvore:
  Uma árvore binária é considerada equilibrada quando a diferença entre a altura da subárvore esquerda e a altura da subárvore direita de cada nó é no máximo 1.
+
+ 
+## Estrutura de Projeto
+
+
+Um projeto de árvore binária normalmente consiste em várias partes, incluindo definição de estruturas de dados, implementação de operações básicas (inserção, exclusão, busca), e possivelmente outras funcionalidades adicionais, dependendo dos requisitos do projeto. Aqui está uma estrutura básica que você poderia seguir:
+
+#### Definição de Estruturas de Dados:
+Nó da Árvore Binária: Um nó que contém um valor e referências para seus filhos esquerdo e direito (ou para os nós adjacentes, dependendo da implementação).
+#### Operações Básicas:
+Inserção: Adiciona um novo nó à árvore de acordo com a ordem da chave.
+Exclusão: Remove um nó da árvore.
+Busca: Procura um nó com uma determinada chave na árvore.
+#### Implementação de Operações:
+Inserção:
+Começa da raiz.
+Se a chave a ser inserida for menor que a chave do nó atual, vá para a subárvore esquerda; se for maior, vá para a subárvore direita.
+Continue até encontrar uma posição vazia para inserir o novo nó.
+Exclusão:
+Existem várias estratégias para exclusão, incluindo a substituição do nó a ser excluído pelo nó sucessor ou predecessor.
+Busca:
+Começa da raiz.
+Se a chave do nó atual for igual à chave procurada, retorna o nó.
+Se a chave procurada for menor, vá para a subárvore esquerda; se for maior, vá para a subárvore direita.
+Continue até encontrar o nó desejado ou até encontrar uma folha (indicando que a chave não está na árvore).
+#### Travessias:
+Pré-ordem: Visita o nó atual antes de seus filhos.
+Em ordem: Visita o nó atual entre a visita de seus filhos esquerdo e direito.
+Pós-ordem: Visita o nó atual após a visita de seus filhos.
+#### Equilíbrio da Árvore (Opcional):
+Se necessário, pode ser implementado um método para equilibrar a árvore para garantir uma altura mínima e, consequentemente, operações mais eficientes.
+#### Testes Unitários:
+Para garantir que todas as operações estejam funcionando corretamente, é importante criar testes unitários abrangentes.
